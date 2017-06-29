@@ -1,42 +1,71 @@
 #container {
+  
+  border: solid #000 thin;
   width: 400px;
-  height: 500px;
-  background-color: #d3d3d3;
+  background-color: #fffff;
   font-family: sans-serif;
   padding: 20px;
-}
-#container h1 {
-  font-family: sans-serif;
-  letter-spacing: 3px;
-  text-align: center;
-}
-#container #submit_form {
-  line-height: 30px;
-  margin-top: 20px;
-}
-#container #submit_form #top {
-  border-bottom: solid #000 thin;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-#container #submit_form #top #nameDropdown {
-  background-color: transparent;
-  border: none;
-  width: 100px;
-}
-#container #submit_form #top #amountTextField {
-  float: right;
-  background-color: transparent;
-  border: none;
-}
-#container #submit_form #descriptionTextField {
-  width: 100%;
+  
+  h1 {
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  
+  #submit_form {
+    margin: 20px;
+
+    #top {
+      
+      border-bottom: solid #EDF2F6 thin;
+      padding: 20px 10px;
+      margin-bottom: 10px;
+      
+      #nameDropdown {
+        background-color: transparent;
+        border: none;
+        width: 100px;
+        color: #677985;
+
+      }
+
+      #amountTextField {
+        float: right;
+        background-color: transparent;
+        border: none;
+        text-align: right;
+
+      }
+      
+    }
+    
+    #descriptionTextField {
+        margin: 10px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+      }
+   
+    .submitButton {
+      width: 100px;
+      height: 30px;
+      border: none;
+      background-color: #00CAE1;
+      color: #fff;
+      margin: 10px auto;
+      display: block;
+    }
+    
+  }
+  
 }
 
+
+
 .semi-square {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
 }
 
 * {
