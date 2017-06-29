@@ -27,8 +27,9 @@ $(document).ready(function() {
 function readDataAndAppend(data) {
 	var allData = [];
 	var cells = data.feed.entry;
-
+	//console.log(cells);
 	for (var i = 0; i < cells.length; i++) {
+
 		var rowObj = {};
 		rowObj.timestamp = cells[i].title.$t;
 		var rowCols = cells[i].content.$t.split(',');
