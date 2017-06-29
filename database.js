@@ -46,13 +46,13 @@ function readDataAndAppend(data) {
 
 	console.log(allData);
 	
-	for (var i = 0; i < rowObj.length; i++) {
+	for (var i = 0; i < cells.length; i++) {
 		var obj = allData[i];
-		var name = "<h3>" + obj.name + "</h3>"
-		var amount = "<h3>" + obj.amount + "</h3>"
-		var desc = "<h3>" + obj.description + "</h3>"
+		var name = obj.name;
+		var amount = obj.amount;
+		var desc = obj.description;
 		
-
-		//$("#display_post").append(firstName + lastName + email + pass)
+		var addRow = "<h3>" + name + " " + amount + " " + desc + "</h3> <br>";
+		$("#show_section").append(addRow)
 	}
 }
