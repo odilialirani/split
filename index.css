@@ -1,74 +1,18 @@
-#container {
-  
-  border: solid #000 thin;
-  width: 400px;
-  background-color: #fffff;
-  font-family: sans-serif;
-  padding: 20px;
-  
-  h1 {
-    font-family: sans-serif;
-    letter-spacing: 3px;
-    text-align: center;
-  }
-  
-  #submit_form {
-    margin: 20px;
-
-    #top {
-      
-      border-bottom: solid #EDF2F6 thin;
-      padding: 20px 10px;
-      margin-bottom: 10px;
-      
-      #nameDropdown {
-        background-color: transparent;
-        border: none;
-        width: 100px;
-        color: #677985;
-
-      }
-
-      #amountTextField {
-        float: right;
-        background-color: transparent;
-        border: none;
-        text-align: right;
-
-      }
-      
-    }
-    
-    #descriptionTextField {
-        margin: 10px;
-        width: 100%;
-        background-color: transparent;
-        border: none;
-      }
-   
-    .submitButton {
-      width: 100px;
-      height: 30px;
-      border: none;
-      background-color: #00CAE1;
-      color: #fff;
-      margin: 10px auto;
-      display: block;
-    }
-    
-  }
-  
+h1 {
+  letter-spacing: 5px;
+  text-align: center;
 }
 
-
-
-.semi-square {
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
+form {
+  padding: 15px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.submitButton {
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #323223;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
 }
