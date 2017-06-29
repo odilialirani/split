@@ -1,0 +1,45 @@
+#container {
+  width: 400px;
+  height: 500px;
+  background-color: #d3d3d3;
+  font-family: sans-serif;
+  padding: 20px;
+}
+#container h1 {
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  text-align: center;
+}
+#container #submit_form {
+  line-height: 30px;
+  margin-top: 20px;
+}
+#container #submit_form #top {
+  border-bottom: solid #000 thin;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#container #submit_form #top #nameDropdown {
+  background-color: transparent;
+  border: none;
+  width: 100px;
+}
+#container #submit_form #top #amountTextField {
+  float: right;
+  background-color: transparent;
+  border: none;
+}
+#container #submit_form #descriptionTextField {
+  width: 100%;
+}
+
+.semi-square {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
