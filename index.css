@@ -25,7 +25,7 @@ form {
 
 th, td {
   text-align: center;
-  font-size: 20px !important;
+  font-size: 1.5em !important;
 }
 
 
@@ -80,6 +80,7 @@ html.js #fallback-nav { display: none; }
     z-index: 5;
     text-align: center;
     display: flex;
+    opacity: 0.9;
     flex-direction: column; }
 
 #main-nav a {
