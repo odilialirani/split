@@ -27,4 +27,18 @@ $(document).ready(function() {
 function readDataAndAppend(data) {
 	var allData = [];
 	var cells = data.feed.entry;
+
+	for (var i = 0; i < cells.length; i++) {
+		var rowObj = {};
+		rowObj.timestamp = cells[i].title.$t;
+		var rowCols = cells[i].content.$t.split(',');
+		for (var j = 0; j < rowCols.length; j++) {
+			var keyval = rowCols[j].split(':');
+			rowObj[keyval[0].trim()] = keyval[1].trim();
+		}
+		allData.push(rowObj);
+	}
+
+	console.log(allData);
+	
 }
