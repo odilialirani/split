@@ -18,9 +18,27 @@
   </head>
 
   <body>
-    <div id="container">
       <h1>SPLIT</h1>
+
+        <form id="submit_form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Juan">
+          </div>
+          <div class="form-group">
+            <label for="amount">Amount</label>
+            <input type="number" name="amount" class="form-control" placeholder="$0.00">
+          </div>
+          <div class="form-group">
+            <label for="description">Description</label>
+            <input type="text" name="description" class="form-control" placeholder="Food">
+          </div>
+
+          <input type="submit" value="Submit" class="submitButton">
+
+        </form>
       
+    <!--
       <form id="submit_form">
         <div id="top">
            <select name="name" class="semi-square">
@@ -32,8 +50,7 @@
         <input type="text" name="description" placeholder="Description">
         <input type="submit" value="Create Account" class="submitButton">
       </form>
+      -->
       
-      
-    </div>
   </body>
 </html>
