@@ -16,3 +16,14 @@ form {
   margin: 20px auto;
   display: block;
 }
+
+
+/*****************************/
+#show_section {
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  font-size: 20px !important;
+}

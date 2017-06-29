@@ -54,7 +54,7 @@ function readDataAndAppend(data) {
 		var amount = obj.amount;
 		var desc = obj.description;
 		
-		var addRow = "<h3>" + name + " " + amount + " " + desc + "</h3> <br>";
+		var addRow = "<tr> <td>" + name + "</td><td>" + amount + "</td><td>" + desc + "</td></tr>";
 		$("#show_section").append(addRow)
 	}
 }
