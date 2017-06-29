@@ -9,25 +9,29 @@ $(document).ready(function() {
 			console.log(data)
 			readDataAndAppend(data);
 		}
-	});
+	})
 
-	$("#submit_form").submit(function(event) {
+	// Submitting data
+	$("#submit_form").submit(function (event) {
 		event.preventDefault();
 		var data = $(this).serialize();
-		console.log(data);
+		
+
 		$.ajax({
 			url: SUBMIT_URL,
 			type: "POST",
 			data: data
 		});
-
+        
+        // Redirect to profile
+        
 	})
 })
 
 function readDataAndAppend(data) {
 	var allData = [];
 	var cells = data.feed.entry;
-	//console.log(cells);
+
 	for (var i = 0; i < cells.length; i++) {
 
 		var rowObj = {};
@@ -42,4 +46,13 @@ function readDataAndAppend(data) {
 
 	console.log(allData);
 	
+	for (var i = 0; i < rowObj.length; i++) {
+		var obj = allData[i];
+		var name = "<h3>" + obj.name + "</h3>"
+		var amount = "<h3>" + obj.amount + "</h3>"
+		var desc = "<h3>" + obj.description + "</h3>"
+		
+
+		//$("#display_post").append(firstName + lastName + email + pass)
+	}
 }
