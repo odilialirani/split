@@ -46,6 +46,8 @@ function readDataAndAppend(data) {
 
 	console.log(allData);
 	
+	// Showing all data on display.html
+
 	for (var i = 0; i < cells.length; i++) {
 		var obj = allData[i];
 		var name = obj.name;
