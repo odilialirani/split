@@ -27,3 +27,65 @@ th, td {
   text-align: center;
   font-size: 20px !important;
 }
+
+
+
+/*************************/
+/* Slide In
+/* https://www.webdesignerdepot.com/2014/04/how-to-create-mobile-style-slide-in-navigation/
+/************************/
+
+#navicon {
+  margin-right: 10px;
+  color: #232323;
+  position: fixed !important;
+  right: 0;
+}
+
+html.no-js #fallback-nav { display: block; }
+html.no-js .fade { display: none; }
+html.no-js #navicon { display: none; }
+html.js #fallback-nav { display: none; }
+
+#navicon {
+    float: right;
+    font-size: 2em;
+    text-decoration: none;
+    position: relative;
+    z-index: 9; }
+
+#navicon.open { color: white; }
+#navicon.open:hover { color: #e6e6e6; }
+#fade {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5; }
+
+#main-nav {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -250px;
+    background: #222;
+    max-width: 250px;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+
+#main-nav a {
+    flex: 1;
+    color: white;
+    border-top: 1px solid #555;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+#main-nav a:hover, #main-nav a.current { background: #3c3c3c; }
+
+/************************/
