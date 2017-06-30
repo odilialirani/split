@@ -36,10 +36,11 @@ th, td {
 /************************/
 
 #navicon {
-  margin-right: 10px;
+  margin-right: 0px;
   color: #232323;
   position: fixed !important;
   right: 0;
+  padding: 10px;
 }
 
 #main-nav a {
