@@ -20,11 +20,21 @@ $(document).ready(function() {
 		$.ajax({
 			url: SUBMIT_URL,
 			type: "POST",
-			data: data
+			data: data,
+			success: function() {
+				var x = document.getElementById("snackbar");
+				x.innerHTML = "Submitted!";
+				x.className = "show";
+				document.getElementById("submit_form").reset();
+				setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+			},
+			error: function() {
+				var x = document.getElementById("snackbar");
+				x.innerHTML = "Failed to submit!";
+				x.className = "show";
+				setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+			}
 		});
-        
-        // Redirect to profile
-        
 	})
 })
 
