@@ -100,8 +100,10 @@ function readDataAndAppend(data) {
 		var name = obj.name;
 		var amount = obj.amount;
 		var desc = obj.description;
-		
-		var addRow = "<tr> <td>" + name + "</td><td>" + amount + "</td><td>" + desc + "</td></tr>";
+		var payee = obj.payee;
+		var a = payee.split(";");
+
+		var addRow = "<tr> <td>" + name + "</td><td>" + amount + "</td><td>" + desc + "</td><td>" + a + "</td></tr>";
 		$("#show_section").append(addRow)
 	}
 }
