@@ -31,6 +31,25 @@ form {
     margin-left: 0px !important;
 }
 
+/* nav tabs */
+.nav-tabs li {
+    width: 50%;
+    text-align: center;
+    color: #000;
+}
+
+.nav-tabs li a {
+    color: #000;
+    letter-spacing: 3px;
+}
+
+.hidePart {
+    display: none;
+}
+
+.showPart {
+    display: flex;
+}
 
 /*************/
 
