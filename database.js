@@ -28,8 +28,10 @@ $(document).ready(function() {
 	// Submitting data
 	$("#submit_form").submit(function (event) {
 		event.preventDefault();
+
+		var x = $('.Checkbox:checked').map(function() { return this.value; }).get().join(', ');
+		document.getElementById("payeeField").value = x;
 		var data = $(this).serialize();
-		
 
 		$.ajax({
 			url: SUBMIT_URL,
@@ -112,7 +114,7 @@ function appendUser(data) {
 		var addPayer = "<option>" + usrname + "</option>";
 		$("#payer").append(addPayer);
 
-		var addPayee = '<label class="checkbox-inline"><input type="checkbox" value="">' + usrname + '</label>';
+		var addPayee = '<label class="checkbox-inline"><input class="Checkbox" type="checkbox" value="' + usrname + '">' + usrname + '</label>';
 		$("#payee").append(addPayee);
 	}
 }
