@@ -39,8 +39,10 @@ $(document).ready(function() {
 	})
 })
 
+var allData = [];
+
 function doThis(data) {
-	var allData = [];
+	//var allData = [];
 	var cells = data.feed.entry;
 	console.log(cells);
 	for (var i = 0; i < cells.length; i++) {
@@ -54,7 +56,7 @@ function doThis(data) {
 		}
 		allData.push(rowObj);
 	}
-
+	
 	//console.log(allData);
 	
 
