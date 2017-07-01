@@ -108,6 +108,7 @@ function readDataAndAppend(data) {
 	}
 }
 
+var count = 0;
 function appendUser(data) {
 	for (var i = 0; i < data.length; i++) {
 		var obj = data[i];
@@ -116,7 +117,16 @@ function appendUser(data) {
 		var addPayer = "<option>" + usrname + "</option>";
 		$("#payer").append(addPayer);
 
-		var addPayee = '<label class="checkbox-inline"><input class="Checkbox" type="checkbox" value="' + usrname + '">' + usrname + '</label>';
-		$("#payee").append(addPayee);
+        
+        if (count <= 2) {
+            var addPayee = '<label class="checkbox-inline"><input class="Checkbox" type="checkbox" value="' + usrname + '">' + usrname + '</label>';
+            count++;
+        }
+        else {
+            var addPayee = '<label class="checkbox-inline nextline"><input class="Checkbox" type="checkbox" value="' + usrname + '">' + usrname + '</label>';
+            count = 1;
+        }
+                    $("#payee").append(addPayee);
+
 	}
 }

@@ -23,6 +23,15 @@ form {
     background-color: #fff;
 }
 
+.checkbox-inline {
+    width: 30%;
+}
+
+.nextline {
+    margin-left: 0px !important;
+}
+
+
 /*************/
 
 
