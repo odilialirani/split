@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/internal_impl-23.4.0_79b8a0c37b7cbfe8d659e6f04da75c0b96c541a1.jar" />
+    </item>
+    <item
+        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-23.4.0_cff744a20a183c3ee3bde7040286b1eb5bb3626e.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ed69cd5603304a6fc9a36a94c8be977a1d0e4857">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_121183e7d2757b62b38bcaf1dd1db793bb41a2f4.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-23.4.0_eabf809d39216273a382cf0138b6ae72067c7b10.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/SplitApp/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_ba6ea09c3a4d96d40bb1960a2dc34c10fb199935.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-23.4.0_0613b3574dcb0c4d4ab064ef78a019577c463eb3.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-23.4.0_caf4bfd85e9abe008bf3ceddb331bbaf5a7bf92f.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-23.4.0_e4ef9a925462ffa5e4241178f71798537609d39c.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-23.4.0_6e21e05ff6798122f59db3fecc42a087af7b9398.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-23.4.0_9a2f050f3eb7870483f4c15c05984b13eb673fba.jar" />
+    </item>
+    <item
+        jar="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/exploded-aar/SplitApp/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/pre-dexed/F0/debug/SplitApp-runtime-unspecified_c06fe65910b8f75219d03415fe53f018ce7d1614.jar" />
+    </item>
+
+</items>

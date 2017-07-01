@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/logo_new_duo.png",
+        "source": "/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/src/main/res/drawable-ldpi/logo_new_duo.png"
+    },
+    {
+        "merged": "/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/build/intermediates/res/merged/F0/debug/drawable-ldpi-v4/ic_menu_delete.png",
+        "source": "/Users/kokosuhartotjondrosuharto/Desktop/Github/split/split_app/SplitApp/platforms/android/src/main/res/drawable-ldpi/ic_menu_delete.png"
+    }
+]
