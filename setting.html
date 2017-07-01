@@ -17,7 +17,8 @@
         
     <script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     
-    <script src="database.js"></script>
+    
+    <script src="user.js"></script>
     <script src="nav.js"></script>
     <link rel="stylesheet" href="index.css">
     
@@ -46,6 +47,19 @@
 
     </div>
     <!-- Add users -->
+    <div class="container" align="center">
+        <h4>add user</h4>
+        <hr width="50%">
+      <form id="submit_user_form">
+    
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="user_name" class="form-control" placeholder="John Doe" required>
+          </div>
 
+          <input type="submit" value="Submit" class="submitButton">
+
+      </form>
+    </div>
   </body>
 </html>
