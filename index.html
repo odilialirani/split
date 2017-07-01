@@ -54,17 +54,20 @@
     </nav><!-- navbar -->
     
       <h1>SPLIT</h1>
-      <br><br>
-
-        <!-- DAILY -->
+      <br>
+      
+      <nav>
+          <ul class="nav nav-tabs">
+              <li id="tripsLi"><a href="#" id="tripsButton">trip</a></li>
+              <li id="dailyLi" class="active"><a href="#" id="dailyButton">daily</a></li>
+            </ul>
+      </nav>
+      
+      
+      <!-- daily -->
+      <div id="daily" class="showPart">
         <form id="submit_form">
 
-            <!--
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" name="name" class="form-control" placeholder="John Doe" required>
-          </div>
-            -->
             <div class="form-group">
                 <label for="payer">Payer</label>
                 <select class="form-control" id="payer" name="name">
@@ -90,20 +93,33 @@
           <input type="submit" value="Submit" class="submitButton">
 
         </form>
+      </div>
+      <!-- daily -->
       
-    <!--
-      <form id="submit_form">
-        <div id="top">
-           <select name="name" class="semi-square">
-            <option value="juan">Juan</option>
-            <option value="odi">Odi</option>
-          </select> 
-          <input type="number" name="amount" placeholder="Amount" >
-        </div>
-        <input type="text" name="description" placeholder="Description">
-        <input type="submit" value="Create Account" class="submitButton">
-      </form>
-      -->
+      
+      <!-- trip -->
+      <div id="trip" class="hidePart">
+
+          <form id="trip_form">
+
+            <div class="form-group">
+                <label for="tripName">Trip Name</label>
+                <input type="text" name="tripName" class="form-control" placeholder="Disneyland">
+            </div>
+              
+            <div class="form-group">
+                <label for="tripDescription">Description</label>
+                <input type="text" name="tripDescription" class="form-control" placeholder="Summer 2017">
+            </div>
+              
+              <br>
+              
+              <input type="submit" value="Submit" class="submitButton">
+          
+      </div>
+      
+      <!-- trip -->
+      
       
     <!-- Snackbar -->
     <div id="snackbar">

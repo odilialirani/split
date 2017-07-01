@@ -17,4 +17,22 @@ $(document).ready(function() {
             $(this).removeClass('open').addClass('closed').html('&#9776;');
             $('#fade').fadeOut(); }
     });
+    
+    // nav tab (index.html)
+    $('#tripsButton').click(function() {
+       
+        $('#dailyLi').removeClass('active');
+        $('#tripsLi').addClass('active');
+        $('#daily').removeClass('showPart').addClass('hidePart');
+        $('#trip').removeClass('hidePart').addClass('showPart');
+        
+    });
+    $('#dailyButton').click(function() {
+       
+        $('#tripsLi').removeClass('active');
+        $('#dailyLi').addClass('active');
+        $('#trip').removeClass('showPart').addClass('hidePart');
+        $('#daily').removeClass('hidePart').addClass('showPart');
+    });
+    
 });
