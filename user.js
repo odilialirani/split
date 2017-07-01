@@ -19,7 +19,22 @@ $(document).ready(function() {
 		$.ajax({
 			url: SUBMIT_URL,
 			type: "POST",
-			data: data
+			data: data,
+			success: function() {
+				var x = document.getElementById("snackbar");
+				x.innerHTML = "Submitted!";
+				x.className = "show";
+				document.getElementById("submit_user_form").reset();
+				setTimeout(function(){ x.className = x.className.replace("show", ""); location.reload();}, 3000);
+
+				
+			},
+			error: function() {
+				var x = document.getElementById("snackbar");
+				x.innerHTML = "Failed to submit!";
+				x.className = "show";
+				setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+			}
 		})
 	})
 })
@@ -40,17 +55,14 @@ function doThis(data) {
 		allData.push(rowObj);
 	}
 
-	console.log(allData);
+	//console.log(allData);
 	
-	// Showing all data on display.html
 
 	for (var i = 0; i < cells.length; i++) {
 		var obj = allData[i];
-		var name = obj.name;
-		var amount = obj.amount;
-		var desc = obj.description;
-		
-		var addRow = "<tr> <td>" + name + "</td><td>" + amount + "</td><td>" + desc + "</td></tr>";
-		$("#show_section").append(addRow)
+		var username = obj.username;
+		//console.log(username);
+		var addRow = "<h5>" + username + "</h5>";
+		$("#show_users").append(addRow)
 	}
 }
