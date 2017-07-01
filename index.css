@@ -3,6 +3,8 @@ h1 {
   text-align: center;
 }
 
+/*** home ***/
+
 form {
   padding: 15px;
 }
@@ -16,6 +18,12 @@ form {
   margin: 20px auto;
   display: block;
 }
+
+#payer {
+    background-color: #fff;
+}
+
+/*************/
 
 
 /*****************************/
