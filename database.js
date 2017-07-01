@@ -29,7 +29,7 @@ $(document).ready(function() {
 	$("#submit_form").submit(function (event) {
 		event.preventDefault();
 
-		var x = $('.Checkbox:checked').map(function() { return this.value; }).get().join(', ');
+		var x = $('.Checkbox:checked').map(function() { return this.value; }).get().join('; ');
 		document.getElementById("payeeField").value = x;
 		var data = $(this).serialize();
 
