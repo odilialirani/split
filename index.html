@@ -5,6 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      
+      <!-- browser stuff -->
+      <meta name="theme-color" content="#000">
+      <!--
+      <link rel="icon" sizes="192x192" href="nice-highres.png">
+      -->
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -45,10 +52,30 @@
       <h1>SPLIT</h1>
 
         <form id="submit_form">
-          <div class="form-group">
+
+            <!--
+        <div class="form-group">
             <label for="name">Name</label>
             <input type="text" name="name" class="form-control" placeholder="John Doe" required>
           </div>
+            -->
+            <div class="form-group">
+                <label for="payer">Payer</label>
+                <select class="form-control" id="payer">
+                    <option>Odi</option>
+                    <option>Juan</option>
+                    <option>Pooh</option>
+                  </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="payee">Payee</label>
+                <br>
+                 <label class="checkbox-inline"><input type="checkbox" value="">Odi</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Juan</label>
+                <label class="checkbox-inline"><input type="checkbox" value="">Pooh</label> 
+            </div>
+            
           <div class="form-group">
             <label for="amount">Amount</label>
             <input type="number" name="amount" class="form-control" placeholder="$0.00" required>
