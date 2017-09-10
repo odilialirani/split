@@ -52,7 +52,6 @@
               echo '<h5>';
               echo $row["ppl_name"];
               echo '</h5>';
-              echo '<br>';
             }
           }
 
@@ -64,7 +63,13 @@
     <!-- Add users -->
     <div class="container" align="center">
         <h4>add user</h4>
-        
+        <hr width="50%">
+        <form action="add_user.php" method="post">
+          <label for="name">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="John Doe" required>
+            <br><br>
+            <input class="submitButton" type="submit" value="Add People">
+        </form> 
     </div>
     <div id="snackbar"></div>
   </body>
