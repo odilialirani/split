@@ -203,3 +203,10 @@ h3 {
 
 
 /********************/
+
+@media screen and (min-width: 845px) {
+    form {
+        width: 80%;
+        margin: 25px 10%; 
+    }
+}
